@@ -37,6 +37,7 @@ public function update(Request $request, $id)
     $livro->update($request->all());
     return response()->json($livro);
 }
+
 public function destroy($id)
 {
     $livro = Livro::find($id);

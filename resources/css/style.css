@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#livros-list {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#livros-list p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#livros-list p strong {
+    font-weight: bold;
+}
+
+#livros-list p:first-child {
+    margin-top: 0;
+}
+
+#livros-list p:last-child {
+    margin-bottom: 0;
+}
