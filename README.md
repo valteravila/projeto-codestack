@@ -12,9 +12,13 @@ Esta é uma API de gerenciamento de livros desenvolvida em Laravel. Ela fornece 
 
 ## Endpoints
 POST /livros: Adiciona um novo livro.
+
 GET /livros: Recupera a lista de todos os livros.
+
 GET /livros/{id}: Recupera detalhes de um livro específico.
+
 PUT /livros/{id}: Atualiza detalhes de um livro específico.
+
 DELETE /livros/{id}: Deleta um livro específico.
 
 ## Estrutura 
